@@ -1,7 +1,7 @@
-# Narrative-Kit
+# NarrativeKit
 *A lightweight dialog system for AppGameKit Classic & Studio.*
 
-Narrative-Kit is a customizable dialog framework designed to make it easy to add visual-novel style narrative boxes, character portraits, and animated text to your AppGameKit games or projects.
+NarrativeKit is a customizable dialog framework designed to make it easy to add visual-novel style narrative boxes, character portraits, and animated text to your AppGameKit games or projects.
 
 It supports:
 
@@ -16,7 +16,7 @@ It supports:
 - Tap-to-skip reveal animation  
 - Top- or bottom-anchored dialog windows  
 
-Narrative-Kit handles layout, transitions, and reveal animations automatically—simply feed it a queue of dialog messages.
+NarrativeKit handles layout, transitions, and reveal animations automatically—simply feed it a queue of dialog messages.
 
 ---
 
@@ -31,7 +31,7 @@ Push multiple dialog entries, each with:
 - Character name  
 - Dialog text  
 
-Narrative-Kit manages the sequence and navigation automatically.
+NarrativeKit manages the sequence and navigation automatically.
 
 ### Text Reveal Animations  
 Three reveal modes:
@@ -56,7 +56,7 @@ Supports:
 - Offsets for fine-tuning layout  
 
 ### JSON-Driven Setup  
-Narrative-Kit loads everything from a JSON config.
+NarrativeKit loads everything from a JSON config.
 
 ---
 
@@ -70,7 +70,7 @@ Narrative-Kit loads everything from a JSON config.
 ```
 or
 ```
-#insert "../Narrative-Kit/NarrativeKit.agc"
+#insert "../NarrativeKit/NarrativeKit.agc"
 ```
 Ensure all file paths in your JSON config are correct.
 
