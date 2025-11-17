@@ -366,14 +366,14 @@ function InitiateNKitDialogFromJSON(jsonPath as string)
 	endif
 	
 	narrativeKitDialogs[narrativeKitDialogID].closeButtonAnchorTo = narrativeKitDialog.closeButtonAnchorTo
-	if (narrativeKitDialogs[narrativeKitDialogID].allowcloseButton = 1)
+	if (narrativeKitDialogs[narrativeKitDialogID].allowCloseButton = 1)
 		narrativeKitDialogs[narrativeKitDialogID].closeButtonImage = LoadImage(narrativeKitDialog.closeButtonImagePath)
 		narrativeKitDialogs[narrativeKitDialogID].closeButtonSprite = CreateSprite(narrativeKitDialogs[narrativeKitDialogID].closeButtonImage)
 	endif
 	narrativeKitDialogs[narrativeKitDialogID].closeButtonImagePath = narrativeKitDialog.closeButtonImagePath
 	narrativeKitDialogs[narrativeKitDialogID].closeButtonOffset = narrativeKitDialog.closeButtonOffset
 	narrativeKitDialogs[narrativeKitDialogID].closeButtonSize = narrativeKitDialog.closeButtonSize
-	if (narrativeKitDialogs[narrativeKitDialogID].allowcloseButton = 1)
+	if (narrativeKitDialogs[narrativeKitDialogID].allowCloseButton = 1)
 		SetSpriteDepth(narrativeKitDialogs[narrativeKitDialogID].closeButtonSprite, GetSpriteDepth(narrativeKitDialogs[narrativeKitDialogID].backgroundSprite) - 3)
 	endif
 	
