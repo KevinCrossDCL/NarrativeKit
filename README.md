@@ -131,3 +131,52 @@ do
 loop
 ```
 There's also an example project in the Examples folder.
+
+---
+
+## JSON Example
+```json
+{
+	"backgroundImagePath": "images/dialog-background.jpg",
+	"backgroundImageWrapUV": [1, 1],
+	"borderTopLeftImagePath": "images/dialog-border-top-left.png",
+	"borderTopImagePath": "images/dialog-border-top.png",
+	"borderTopImageWrapUV": [1, 0],
+	"borderTopSpriteUVScale": [0.5, 1],
+	"borderTopRightImagePath": "images/dialog-border-top-right.png",
+	"borderLeftImagePath": "images/dialog-border-left.png",
+	"borderLeftImageWrapUV": [0, 1],
+	"borderRightImagePath": "images/dialog-border-right.png",
+	"borderRightImageWrapUV": [0, 1],
+	"borderBottomLeftImagePath": "images/dialog-border-bottom-left.png",
+	"borderBottomImagePath": "images/dialog-border-bottom.png",
+	"borderBottomImageWrapUV": [1, 0],
+	"borderBottomSpriteUVScale": [0.5, 1],
+	"borderBottomRightImagePath": "images/dialog-border-bottom-right.png",
+	"anchorTo": "bottom",
+	"autoHeight": 1,
+	"avatarAnchorTo": "Bottom Left",
+	"avatarSize": [111, 150],
+	"avatarOffset": [20, -23],
+	"borderThickness": 25,
+	"messageTextAlignment": 0,
+	"messageTextBold": 0,
+	"messageTextColor": [220, 195, 120, 255],
+	"messageTextFontPath": "fonts/SpecialElite.ttf",
+	"messageTextOffset": [145, 60],
+	"messageTextSize": 25,
+	"nameTextAlignment": 0,
+	"nameTextBold": 0,
+	"nameTextColor": [255, 255, 255, 255],
+	"nameTextFontPath": "fonts/SpecialElite.ttf",
+	"nameTextOffset": [145, 20],
+	"nameTextSize": 35,
+	"nextButtonAnchorTo": "Bottom Right",
+	"nextButtonImagePath": "images/button-next.png",
+	"nextButtonOffset": [-40, 10],
+	"nextButtonSize": [60, 45],
+	"offset": [0, -20],
+	"size": [950, 100],
+	"textDisplayMode": "Letter"
+}
+```
